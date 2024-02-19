@@ -5,7 +5,7 @@ total=0
 
 # afiseaza scorul final
 function show_score {
-	echo "Total: $total/40"
+	echo "Total: $total/4"
 }
 
 function run_timeout {
@@ -38,7 +38,7 @@ function compare_files {
 }
 
 function test1 {
-	echo "Se ruleaza testul 1..."
+	echo "Running test 1..."
 	cp tests/test1/* .
 	correct=0
 	run_timeout "mpirun --oversubscribe -np 4 ./bitprot"
@@ -49,10 +49,10 @@ function test1 {
 	compare_files client3_file3 out3.txt
 	if [ $correct == 5 ]
 	then
-	    total=$((total+10))
+	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 1 a picat"
+		echo "Testul 1 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -61,7 +61,7 @@ function test1 {
 }
 
 function test2 {
-	echo "Se ruleaza testul 2..."
+	echo "Running test 2..."
 	cp tests/test2/* .
 	correct=0
 	run_timeout "mpirun --oversubscribe -np 6 ./bitprot"
@@ -74,10 +74,10 @@ function test2 {
 	compare_files client5_file5 out5.txt
 	if [ $correct == 7 ]
 	then
-	    total=$((total+10))
+	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 2 a picat"
+		echo "Testul 2 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -86,7 +86,7 @@ function test2 {
 }
 
 function test3 {
-	echo "Se ruleaza testul 3..."
+	echo "Running test 3..."
 	cp tests/test3/* .
 	correct=0
 	run_timeout "mpirun --oversubscribe -np 5 ./bitprot"
@@ -96,10 +96,10 @@ function test3 {
 	compare_files client4_file2 out2.txt
 	if [ $correct == 4 ]
 	then
-	    total=$((total+10))
+	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 3 a picat"
+		echo "Testul 3 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -108,7 +108,7 @@ function test3 {
 }
 
 function test4 {
-	echo "Se ruleaza testul 4..."
+	echo "Running test 4..."
 	cp tests/test4/* .
 	correct=0
 	run_timeout "mpirun --oversubscribe -np 7 ./bitprot"
@@ -118,10 +118,10 @@ function test4 {
 	compare_files client6_file1 out1.txt
 	if [ $correct == 4 ]
 	then
-	    total=$((total+10))
+	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 4 a picat"
+		echo "Testul 4 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
