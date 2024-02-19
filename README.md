@@ -1,4 +1,4 @@
-# 🔄 BitTorrent Protocol Simulation using MPI
+# 🌀 BitTorrent Protocol Simulation using MPI
 
 ## 📝 Overview
 
