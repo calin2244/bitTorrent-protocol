@@ -3,7 +3,7 @@
 correct=0
 total=0
 
-# afiseaza scorul final
+# show final score
 function show_score {
 	echo "Total: $total/4"
 }
@@ -52,7 +52,7 @@ function test1 {
 	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 1 failed"
+		echo "Test 1 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -77,7 +77,7 @@ function test2 {
 	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 2 failed"
+		echo "Test 2 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -99,7 +99,7 @@ function test3 {
 	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 3 failed"
+		echo "Test 3 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -121,7 +121,7 @@ function test4 {
 	    total=$((total+1))
 	    echo "OK"
 	else
-		echo "Testul 4 failed"
+		echo "Test 4 failed"
 	fi
 	rm -rf client*_file*
 	rm -rf in*txt
@@ -143,7 +143,7 @@ make build &> build.txt
 
 if [ ! -f bitprot ]
 then
-    echo "E: Nu s-a putut compila tema"
+    echo "E: Couldn't compile."
     cat build.txt
     show_score
     rm -rf build.txt
