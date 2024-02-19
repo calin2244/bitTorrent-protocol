@@ -1,0 +1,58 @@
+mpirun -np 6 tema3
+--------------
+Rank client 1
+Rezumat pentru fișierul file7:
+Peer Rank: 4, Segment Count: 70
+c02e953060b4d4752c79cee3feb1fc25
+0b108666ccf44d1b20a67b91744d2d3d
+--------------
+--------------
+Rank client 3
+Rezumat pentru fișierul file4:
+Peer Rank: 2, Segment Count: 30
+ec96d46ba6edb8ee50789522fc6cefa4
+907e0f4f81b2c8dbce3e67e490dce8a4
+--------------
+--------------
+Rank client 4
+Rezumat pentru fișierul file2:
+Peer Rank: 1, Segment Count: 60
+38372a0100d22bbd263e4c9fdb6585a0
+3951b3defbd86ea507a001b6533ecccc
+Peer Rank: 5, Segment Count: 60
+38372a0100d22bbd263e4c9fdb6585a0
+3951b3defbd86ea507a001b6533ecccc
+--------------
+--------------
+Rank client 5
+Rezumat pentru fișierul file1:
+Peer Rank: 1, Segment Count: 80
+5180b9534fe42f8b91bd013114846a62
+bca3e425b4acf7fff9429ec041f7bbd1
+Peer Rank: 4, Segment Count: 80
+5180b9534fe42f8b91bd013114846a62
+bca3e425b4acf7fff9429ec041f7bbd1
+Rank client 5
+Rezumat pentru fișierul file4:
+Peer Rank: 2, Segment Count: 30
+ec96d46ba6edb8ee50789522fc6cefa4
+907e0f4f81b2c8dbce3e67e490dce8a4
+Rank client 5
+Rezumat pentru fișierul file5:
+Peer Rank: 3, Segment Count: 50
+a5e19996c1171df36003dbc1471379a3
+513b8d211b8df6f33c878268083963e5
+--------------
+Message received
+Message received
+Message received
+Message received
+Message received
+END OF TRACKING
+--------------
+Rank client 2
+Rezumat pentru fișierul file6:
+Peer Rank: 3, Segment Count: 60
+86044406c6311b593fcea7e7f83cbbfa
+e61696c437d010b8b0ce3f693355b646
+--------------

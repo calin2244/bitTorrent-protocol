@@ -1,0 +1,61 @@
+mpirun -np 6 tema3
+clients: 5
+Clientul 1 are: 
+Files: file1 file2 
+Clientul 2 are: 
+Files: file3 file4 
+Clientul 3 are: 
+Files: file5 file6 
+Clientul 4 are: 
+Files: file1 file7 
+Clientul 5 are: 
+Files: file2 file3 
+
+Clientul 5 doreste: file1 file4 file5 
+Clientul 1 doreste: file7 
+Clientul 2 doreste: file6 
+Clientul 4 doreste: file2 
+Clientul 3 doreste: file4 
+
+// 5 ar trb sa primeasca de la: 1, 4, 2 si 3
+// 1 ar trb sa primeasca de la: 
+
+// Swarm-ul fisierului 1
+clientul 1, clientul 4
+
+// Swarm-ul fisierului 2
+clientul 1, clientul 5
+
+// Swarm-ul 3
+clientul 2, clientul 5 
+
+// swarm 4
+clientul 2
+
+// swarm 5
+clientul 3
+
+// Swam 6
+clientul 3
+
+// swarm 7
+clientul 4
+
+
+// test 4
+Clientul 1 are: 
+Files: file1
+Clientul 2 are: 
+Files: file1
+Clientul 3 nu are nimic
+Clientul 4 nu are nimic
+Clientul 5 nu are nimic
+Clientul 6 nu are nimic
+
+Clientul 5 doreste: file1 
+Clientul 3 doreste: file1 
+Clientul 4 doreste: file1 
+Clientul 6 doreste: file1 
+
+swarm-ul fisierului 1:
+clientul 1, clientul 2

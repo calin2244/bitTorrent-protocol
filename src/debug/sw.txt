@@ -1,0 +1,94 @@
+mpirun --oversubscribe -np 6 tema3
+intru aici woow....
+clients: 5
+Rank 1 has: 
+Files: file1 and 80 segments
+file2 and 60 segments
+
+Rank 2 has: 
+Files: file3 and 75 segments
+file4 and 30 segments
+
+Rank 3 has: 
+Files: file5 and 50 segments
+file6 and 60 segments
+
+Rank 4 has: 
+Files: file1 and 80 segments
+file7 and 70 segments
+
+Rank 5 has: 
+Files: file2 and 60 segments
+file3 and 75 segments
+
+Dimensiunea swarm-ului 1: 2
+Clientul 1 Clientul 4 
+Dimensiunea swarm-ului 2: 2
+Clientul 1 Clientul 5 
+Dimensiunea swarm-ului 3: 2
+Clientul 2 Clientul 5 
+Dimensiunea swarm-ului 4: 1
+Clientul 2 
+Dimensiunea swarm-ului 5: 1
+Clientul 3 
+Dimensiunea swarm-ului 6: 1
+Clientul 3 
+Dimensiunea swarm-ului 7: 1
+Clientul 4 
+Tipul clientului 1: 1
+Tipul clientului 2: 1
+Tipul clientului 3: 1
+Tipul clientului 4: 1
+Tipul clientului 5: 1
+
+
+LA INCEPUT 
+
+END OF TRACKING
+clients: 5
+Rank 1 has: 
+Files: file1 and 80 segments
+file2 and 60 segments
+file7 and 70 segments
+
+Rank 2 has: 
+Files: file3 and 75 segments
+file4 and 30 segments
+file6 and 60 segments
+
+Rank 3 has: 
+Files: file5 and 50 segments
+file6 and 60 segments
+file4 and 30 segments
+
+Rank 4 has: 
+Files: file1 and 80 segments
+file7 and 70 segments
+file2 and 60 segments
+
+Rank 5 has: 
+Files: file2 and 60 segments
+file3 and 75 segments
+file1 and 80 segments
+file4 and 30 segments
+file5 and 50 segments
+
+Dimensiunea swarm-ului 1: 3
+Clientul 1 Clientul 4 Clientul 5 
+Dimensiunea swarm-ului 2: 3
+Clientul 1 Clientul 4 Clientul 5 
+Dimensiunea swarm-ului 3: 2
+Clientul 2 Clientul 5 
+Dimensiunea swarm-ului 4: 3
+Clientul 2 Clientul 3 Clientul 5 
+Dimensiunea swarm-ului 5: 2
+Clientul 3 Clientul 5 
+Dimensiunea swarm-ului 6: 2
+Clientul 2 Clientul 3 
+Dimensiunea swarm-ului 7: 2
+Clientul 1 Clientul 4 
+Tipul clientului 1: 1
+Tipul clientului 2: 1
+Tipul clientului 3: 1
+Tipul clientului 4: 1
+Tipul clientului 5: 1
